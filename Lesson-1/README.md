@@ -7,11 +7,11 @@
 int main(void) {
 	int morreysCats = 12;
 	morreysCats = morreysCats + 4;
-	int catFoodInGrams = 1500;
+	int catFood = 1500;
 	
-	int remainderLeft = 1500 - 50 * morreysCats;
+	int remainderLeft = catFood - 50 * morreysCats;
 	
-	int foodPerCat = remainderLeft/morreysCats;
+	int nextDayFood = remainderLeft/morreysCats;
 
 	return 0;
 }
